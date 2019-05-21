@@ -1,6 +1,8 @@
-.navbar-brand
-{
+.navbar-light .navbar-brand {
+    color: white;
     position: relative;
-    width: 170px;
-    left: 15px;
+    left: 50%;
+    transform: translatex(-50%);
+    font-family: 'Major Mono Display', monospace;
+    font-size: 200%;
 }
